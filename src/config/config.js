@@ -8,9 +8,9 @@ if (process.env.NODE_ENV === "production") {
 }
 
 const config = {
-    env: window._env_.NODE_ENV,
+    env: env.NODE_ENV,
     url: {
-        test: window._env_.REACT_APP_BASEURL_TEST
+        test: env.REACT_APP_BASEURL_TEST
     }
 };
 
